@@ -10,20 +10,24 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "lucide-react": "^0.539.0",
     "next": "15.4.6",
     "react": "19.1.0",
+    "react-datepicker": "^8.4.0",
     "react-dom": "19.1.0"
   },
   "devDependencies": {
     "@cloudflare/next-on-pages": "^1.13.13",
     "@eslint/eslintrc": "^3",
-    "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
+    "@types/react-datepicker": "^6.2.0",
     "@types/react-dom": "^19",
+    "autoprefixer": "^10.4.21",
     "eslint": "^9",
     "eslint-config-next": "15.4.6",
-    "tailwindcss": "^4",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.17",
     "typescript": "^5",
     "wrangler": "^4.28.1"
   }
