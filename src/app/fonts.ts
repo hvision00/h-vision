@@ -13,6 +13,8 @@ export const telegraf = localFont({
 export const poppins = localFont({
   src: [
     { path: '../../public/fonts/poppins/Poppins-Regular.woff2', weight: '400', style: 'normal' },
+    { path: '../../public/fonts/poppins/Poppins-SemiBold.woff2', weight: '600', style: 'normal' },
+    { path: '../../public/fonts/poppins/Poppins-Medium.woff2', weight: '500', style: 'normal' },
   ],
   variable: '--font-poppins',
   display: 'swap',
