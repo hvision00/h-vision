@@ -3,6 +3,7 @@
 import React, { useState, useCallback, useRef } from 'react';
 import { Menu, Sparkles } from 'lucide-react';
 import Image from 'next/image';
+import Link from 'next/link';
 import MegaMenu from './MegaMenu';
 import MobileMenu from './MobileMenu';
 import type { NavLink, MegaMenuData } from './types';
@@ -149,7 +150,7 @@ const Navbar: React.FC = () => {
 
             {/* Logo */}
             <div className="flex-shrink-0">
-              <a href="/" className="flex items-center justify-center">
+              <Link href="/" className="flex items-center justify-center">
                 <Image
                   src="/icons/logos/logo-primary.svg"
                   alt="HighVision Logo"
@@ -158,7 +159,7 @@ const Navbar: React.FC = () => {
                   className="h-8 w-auto"
                   priority
                 />
-              </a>
+              </Link>
             </div>
 
             {/* Desktop Navigation */}

@@ -109,7 +109,7 @@ const NewsletterSection: React.FC<NewsletterSectionProps> = ({
   // Gestione invio con Enter
   const handleKeyDown = (e: React.KeyboardEvent) => {
     if (e.key === 'Enter' && submissionState === 'idle') {
-      handleSubmit(e as any);
+      handleSubmit(e as unknown as React.FormEvent<HTMLFormElement>);
     }
   };
 
@@ -185,7 +185,7 @@ const NewsletterSection: React.FC<NewsletterSectionProps> = ({
               >
                 Privacy Policy
               </a>
-              . Puoi annullare l'iscrizione in qualsiasi momento.
+              . Puoi annullare l&apos;iscrizione in qualsiasi momento.
             </p>
           </div>
         </div>

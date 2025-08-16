@@ -106,7 +106,7 @@ const HeroSection: React.FC = () => {
           {/* Description - Stile PageIntroSection ma più dettagliata */}
           <div className="space-y-4">
             <p className="text-lg md:text-xl lg:text-2xl leading-relaxed font-light font-sans max-w-4xl mx-auto text-white/90">
-              Guidiamo aziende innovative verso l'eccellenza attraverso soluzioni digitali su misura, 
+              Guidiamo aziende innovative verso l&apos;eccellenza attraverso soluzioni digitali su misura, 
               strategie vincenti e risultati concreti.
             </p>
             

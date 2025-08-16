@@ -122,7 +122,7 @@ const StorySection: React.FC = () => {
               La nostra storia
             </span>
             <h2 className="font-heading text-4xl lg:text-5xl text-primary mb-6">
-              L'evoluzione del business digitale
+              L&apos;evoluzione del business digitale
             </h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
               Quattro concetti che definiscono il nostro approccio e la nostra missione

@@ -211,7 +211,7 @@ const ConceptFlowSection: React.FC = () => {
                     {/* Quote stilizzata */}
                     <div className="border-l-4 border-primary bg-white/60 backdrop-blur-sm p-4 sm:p-6 rounded-r-xl sm:rounded-r-2xl">
                       <p className="text-sm sm:text-base italic text-gray-600 leading-relaxed">
-                        "{concept.quote}"
+                        &ldquo;{concept.quote}&rdquo;
                       </p>
                     </div>
                   </div>
@@ -331,7 +331,7 @@ const ConceptFlowSection: React.FC = () => {
                   transition={{ duration: 0.5, delay: 0.3 }}
                 >
                   <p className="text-base italic text-gray-600">
-                    "{concepts[currentConcept].quote}"
+                    &ldquo;{concepts[currentConcept].quote}&rdquo;
                   </p>
                 </motion.div>
 
@@ -360,7 +360,7 @@ const ConceptFlowSection: React.FC = () => {
         <div className="text-center mt-16 sm:mt-24 lg:mt-32 pt-12 sm:pt-16 border-t border-gray-100">
           <p className="text-base sm:text-lg text-gray-600 mb-6 sm:mb-8 max-w-2xl mx-auto leading-relaxed">
             Questi principi non sono teoria. Sono il risultato di anni di lavoro con aziende 
-            che hanno scelto la semplicità dell'eccellenza.
+            che hanno scelto la semplicità dell&apos;eccellenza.
           </p>
           
           <button className="px-6 sm:px-8 py-3 sm:py-4 bg-primary text-white rounded-full font-medium hover:bg-primary/90 transition-colors text-sm sm:text-base">

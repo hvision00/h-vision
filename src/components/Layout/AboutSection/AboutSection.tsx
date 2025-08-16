@@ -88,7 +88,7 @@ const AboutSection: React.FC<AboutSectionProps> = ({
         {/* Quote */}
         <div className="mb-6 md:mb-8">
           <p className="text-sm md:text-base font-sans text-white/90 italic tracking-wide">
-            "{quote}"
+            &ldquo;{quote}&rdquo;
           </p>
         </div>
         
