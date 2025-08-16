@@ -19,7 +19,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="it">
-      <body className={`${telegraf.variable} ${poppins.variable} antialiased`}>
+      <body className={`${telegraf.variable} ${poppins.variable} antialiased bg-[#fff]`}>
         <Navbar />
         <main className="min-h-screen">
           {children}
