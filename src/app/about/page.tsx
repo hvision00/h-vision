@@ -37,8 +37,7 @@ export default function AboutPage() {
   ];
 
   return (
-    <main className="">
-
+    <>
       {/* Hero section about */}
       <PageIntroSection
         subtitle="La nostra storia • Chi siamo • Come funziona"
@@ -71,6 +70,6 @@ export default function AboutPage() {
         backgroundImage="/img/About/About-bg.jpg"
       />
 
-    </main>
+    </>
   );
 }

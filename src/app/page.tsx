@@ -72,8 +72,8 @@ const HeroSection: React.FC = () => {
                 Innovation • Excellence • Results
               </span>
               <div className="w-2 h-2 bg-secondary rounded-full ml-3 animate-pulse" style={{animationDelay: '1s'}}></div>
-            </div>
-          </div>
+    </div>
+        </div>
 
           {/* Typography - Stile PageIntroSection ma più grande per homepage */}
           <div className="space-y-6 md:space-y-8">
@@ -197,7 +197,7 @@ export default function HomePage() {
   ];
 
   return (
-    <main className="">
+    <>
       {/* Hero Section Avanzata */}
       <HeroSection />
 
@@ -225,6 +225,6 @@ export default function HomePage() {
 
       {/* Newsletter Section */}
       <NewsletterSection />
-    </main>
+    </>
   );
 }
